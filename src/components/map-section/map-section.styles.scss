@@ -1,0 +1,10 @@
+@import 'leaflet/dist/leaflet.css';
+#map {
+  height: 100vh;
+  .leaflet_map {
+    background-color: #fafeff !important;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+}

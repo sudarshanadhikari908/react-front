@@ -1,0 +1,41 @@
+.container__box.bottom > .arrow {
+  margin-left: -11px;
+  border-top-width: 0;
+}
+
+.embed_arrow.bottom > .arrow {
+  top: -11px;
+  right: 10px;
+}
+
+.filter_arrow.bottom > .arrow {
+  right: 60px;
+  top: 0px;
+}
+
+.container__box > .arrow {
+  border-width: 11px;
+}
+
+.container__box.bottom > .arrow:after {
+  top: 1px;
+  margin-left: -10px;
+  content: " ";
+  border-top-width: 0;
+  border-bottom-color: #fff;
+}
+
+.container__box > .arrow:after {
+  content: "";
+  border-width: 10px;
+}
+
+.container__box > .arrow,
+.container__box > .arrow:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}

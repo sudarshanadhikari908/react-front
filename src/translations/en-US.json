@@ -1,0 +1,109 @@
+{
+  "login": {
+    "email-user": "Email/Username",
+    "forget-pass": "Forgot Password?",
+    "login": "Login",
+    "password": "Password",
+    "sub-title": "Login With Email/username",
+    "title": "Analytics Login"
+  },
+
+  "analysis-panel": {
+    "modal": {
+      "apply": "Apply",
+      "close": "Close"
+    },
+    "panel-detail": {
+      "away": "Away",
+      "district": "District"
+    },
+    "search-data": {
+      "name": "Name",
+      "type": "Type"
+    }
+  },
+  "analyze": {
+    "analyze-list": "To Analyze List",
+    "no-list": "No item in analyze list."
+  },
+  "auth": {
+    "forgot": {
+      "back-login": "Back To Login?",
+      "conf-password": "Confirm Password",
+      "email": "Email",
+      "get-token": "Get reset token",
+      "have-code": "Have Reset Code",
+      "link-conf-msg": "We will send you a link to reset your password.",
+      "link-msg": "Reset your password with the code send to your email.",
+      "password": "Password",
+      "reset-password": "Reset Password",
+      "success": "Success",
+      "success-msg": "Your password has been reset successfully.",
+      "title": "Forget Password ?",
+      "token": "Token",
+      "verify-email": "Verify Email"
+    },
+
+    "reset": {
+      "cancel-reset": "Cancel Password Reset",
+      "close": "Close",
+      "conf-new-password": "Confirm New Password",
+      "new-password": "New Password",
+      "old-password": "Old Password",
+      "reset": "Reset Password",
+      "success": "Success",
+      "success-message": "Your password has been reset successfully."
+    }
+  },
+  "greeting": "Hello {{name}}!",
+  "latlng": {
+    "zoom": "Zoom"
+  },
+  "left-section": {
+    "add-analyze": "Add To Analyze Later",
+    "back": "Back",
+    "clear": "Clear",
+    "dataset": "Datasets",
+    "dataset-search": "Search Datasets",
+    "livedata": "Live Data",
+    "loc-analysis": "Location Analysis",
+    "no-dataset-analysis": "Analysis dataset is not avaliable.",
+    "no-timeline": "Timeline data is not avaliable.",
+    "style-for": "Style For",
+    "label-show": "Show Label",
+    "label-hover": "On hover",
+    "label-on": "Always On",
+    "label-off": "Always Off"
+  },
+  "legend": {
+    "basemap": "Basemap",
+    "legend": "Legend"
+  },
+  "livedata": {
+    "depth": "Depth",
+    "location": "Location",
+    "magnitude": "Magnitude",
+    "time": "Time",
+    "title": "Title"
+  },
+  "price_banner": "The {product} costs {price, number, ::currency/USD}",
+  "profile": {
+    "about": "About",
+    "analysispanel": "Analytics Panel",
+    "dataset": "Dataset",
+    "datasetanalysis": "Dataset Analysis",
+    "logout": "Logout",
+    "repass": "Reset Password",
+    "timeline": "Timeline"
+  },
+  "search": {
+    "allow-selfsearch": "Allow self Search",
+    "category": "Catagory",
+    "clear": "Clear",
+    "relations": "Relations",
+    "search": "Search",
+    "search-relation": "Select Relations from the Right Panel to Interlink the Catagories.",
+    "search-sel-cat": "Select Any Catagory From The Left Panel.",
+    "download": "Download"
+  }
+}

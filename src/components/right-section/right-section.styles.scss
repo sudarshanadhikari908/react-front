@@ -1,0 +1,147 @@
+@import '../../styles/app.scss';
+
+.right__section {
+  position: absolute;
+  right: 0;
+  top: 60px;
+  width: 28px;
+  z-index: 99;
+  transition: 0.3s linear 0s;
+  -webkit-transition: 0.3s linear 0s;
+
+  &.timeline {
+    position: fixed;
+    top: 10px;
+    width: 30px;
+    overflow: auto;
+  }
+
+  &.col-main-show {
+    width: 270px;
+    right: 0;
+    max-height: calc(100vh - 230px);
+    .trigger-inner {
+      .trigger {
+        .stat-trigger {
+          .left-trigger {
+            display: none;
+          }
+          .right-trigger {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+  .trigger-inner {
+    display: flex;
+    position: fixed;
+    overflow-x: hidden;
+    .trigger {
+      .stat-trigger {
+        background: #fff;
+        border-radius: 0;
+        top: 42px;
+        width: 28px;
+        height: 48px;
+        &.timeline {
+          top: 0;
+          height: 40px;
+          width: 30px;
+        }
+        .right-trigger {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .right__body__section {
+    width: 242px;
+    background: #fff;
+    .right-header {
+      background: $theme-color;
+      height: 43px;
+      text-align: left;
+      padding: 11px 0 11px 15px;
+      font-weight: 500;
+      font-size: 14px;
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+        span {
+          margin-right: 15px;
+          float: right;
+        }
+    }
+    .right-contain {
+      padding: 0 12px 20px 17px;
+      max-height: 300px;
+      overflow: auto;
+      &.data-detail {
+        max-height: 650px;
+        .contain-list{
+          padding: 0;
+        }
+      }
+      .contain-list {
+        border-bottom: 1px solid #d8e5ec;
+        text-align: left;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+          "Helvetica Neue", sans-serif;
+        letter-spacing: 0px;
+        color: #4f4f4f;
+        opacity: 1;
+        padding: 8px 0;
+        &.todo-list {
+          display: flex;
+          cursor: pointer;
+        }
+        span {
+          font-size: 12px;
+          color: #b5b5b5;
+        }
+        p {
+          margin-bottom: 5px;
+        }
+
+        .contain-name {
+          width: 91%;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          padding-left: 10px;
+          &.active {
+            color: $theme-color;
+            font-weight: 600;
+          }
+        }
+        .contain-btn {
+          display: flex;
+          .right-img {
+            height: 15px;
+            width: 15px;
+            margin: 5px 2px 0;
+            color: red;
+            // &.inactive {
+            //   cursor: not-allowed;
+            // }
+          }
+          .left-img {
+            height: 15px;
+            width: 15px;
+            margin-top: 5px;
+            // &.inactive {
+            //   cursor: not-allowed;
+            // }
+          }
+        }
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+
+
+}

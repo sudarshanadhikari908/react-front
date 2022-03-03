@@ -1,0 +1,91 @@
+.legend__section {
+  box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.1);
+  // padding: 12px 8px;
+  border-radius: 3px 0 0 0;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  &.toggle-corner {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    .corner-title {
+      i {
+        -ms-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  .corner-titles {
+    display: flex;
+    position: absolute;
+    top: -40px;
+    right: 17px;
+    .corner-title {
+      z-index: 99;
+      cursor: pointer;
+      background-color: #f1f1f1;
+      height: 40px;
+      margin-right: 10px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 4px 4px 0 0;
+      font-size: 13px;
+      &.corner-title-active {
+        background: #fff;
+      }
+    }
+  }
+  .basemap__section {
+    height: 0;
+    transition-duration: .4s;
+    overflow: hidden;
+    width: 253px;
+    &.basemap-content-display{
+      height: 100px;
+      width: auto;
+      box-shadow: -4px -4px 4px rgba(0,0,0,.1);
+      z-index: 9;
+        position: relative;
+    }
+
+    .basemap-content-inner{
+      display: flex;
+      padding: 8px;
+      background: white;
+      .item-corner {
+        width: 56px;
+        margin: 0 5px;
+        cursor: pointer;
+        img {
+          border: 1px solid #fff;
+          -moz-transition: all .5s ease-in-out;
+          transition: all .5s ease-in-out;
+          box-shadow: 0 3px 3px 0 #ccc, 0 1px 7px 0 #ccc, 0 3px 1px -1px #ccc;
+          height: 54px;
+          margin-bottom: 5px;
+        }
+        p {
+          -moz-transition: all .5s ease-in-out;
+          transition: all .5s ease-in-out;
+          font-size: 11px;
+          margin: 0;
+          line-height: 12px;
+        }
+        &:hover img, &.active img {
+          border: 1px solid #008CC9!important;
+          transform: scale(1.03);
+        }
+      }
+    }
+  }
+
+}

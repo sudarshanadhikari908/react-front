@@ -1,0 +1,145 @@
+
+$theme-color: #008CC9 !default;
+$theme-color-hover: #047fb5 !default;
+
+$white: #ffffff !default;
+$primary:#008cc9 !default;
+$secondary: #929fa0 !default;
+$success: #8ca824 !default;
+$danger: #d82b3c !default;
+$warning: #e57d0c !default;
+$light: #f8f9fa !default;
+$dark: #343a40 !default;
+$black: #000000 !default;
+$DividerColor: #e8e8e8 !default;
+$PrimaryColor: #2d2d2d !default;
+$SecoundaryColor: #4f4e52 !default;
+
+
+//
+// Spacing
+$spacer: 16px !default;
+
+//
+//Heading font
+//
+// $h1-font-size: 240px !default;
+// $h2-font-size: 32px !default;
+// $h3-font-size: 28px !default;
+// $h4-font-size: 24px !default;
+// $h5-font-size: 20px !default;
+// $h6-font-size: 16px !default;
+
+$headings-margin: 0 !default;
+$headings-margin-bottom: ($spacer / 2) !default;
+$headings-font-family:   inherit !default;
+$headings-font-weight:   500 !default;
+$headings-line-height:   1.25 !default;
+$headings-color:         inherit !default;
+
+// Body
+//
+// Settings for the `<body>` element.
+$body-bg: $white !default;
+$body-color: $PrimaryColor !default;
+
+
+// Links
+//
+// Style anchor elements.
+$link-color: $primary !default;
+$link-decoration: none !default;
+$link-hover-color: darken($link-color, 15%) !default;
+$link-hover-decoration: none !default;
+
+
+// Paragraphs
+//
+// Style p element.
+$paragraph-margin-bottom: 16px !default;
+
+// Components
+// Define common padding and border radius sizes and more.
+$line-height-lg: 1.5 !default;
+$line-height-sm: 1.5 !default;
+$border-width: 1px !default;
+$border-color: $DividerColor !default;
+$border-color-transparent: transparent !default;
+
+$border-none: none !default;
+$border-radius-0: 0px !default;
+$overflow-hidden: hidden !default;
+$overflow-scroll: scroll !default;
+
+$component-active-color: $white !default;
+$component-active-bg: $primary !default;
+
+
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+$font-family-poppins: "Poppins",sans-serif !default;
+$font-family-base: $font-family-poppins !default;
+$font-size-base: 13px !default;
+$font-size-lg: 14px !default;
+$font-size-sm: 12px !default;
+
+
+//
+// Font-Weight
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-medium: 500 !default;
+$font-weight-semi-bold: 600 !default;
+$font-weight-bold: 700 !default;
+$font-weight-count: 400 !default;
+$font-weight-base: $font-weight-normal !default;
+$line-height-base: 1.5 !default;
+
+
+//
+// Font Size
+$h1-font-size: 34px !default;
+$h2-font-size: 30px !default;
+$h3-font-size: 26px !default;
+$h4-font-size: 22px !default;
+$h5-font-size: 18px !default;
+$h6-font-size: 14px !default;
+
+
+//
+// Heading
+$headings-margin-bottom: ($spacer / 1.5) !default;
+$headings-font-family: $font-family-poppins !default;
+$headings-font-weight: $font-weight-medium !default;
+$headings-line-height: 1.25 !default;
+$headings-color: $primary !default;
+//
+// Navbar
+//
+$navbar-width: 64px !default;
+$border-radius-user: 50% !default;
+
+//
+// cursor
+//
+$cursor-pointer: pointer !default;
+$cursor-default: default !default;
+//
+// Map
+//
+$zoom-control-color: #303A63 !default;
+$zoom-control-divider-color: #E6E6E6 !default;
+//
+//Navbar/Block Container
+//
+$block-width: 270px !default;
+$navbar-top: 79px !default;
+$navbar-left: 64px !default;
+$profile-navbar-top: 20px !default;
+
+//
+// Block box shadow
+//
+$block-box-shadow: -6px 6px 6px rgba(0,0,0,0.10);
+$box-shadow-none: none !default;

@@ -1,0 +1,161 @@
+.__login-section {
+  padding: 0 !important;
+  display: table;
+  height: 100vh;
+  width: 100vh;
+  margin: 0 auto !important;
+
+  img.bg {
+    position: absolute;
+    height: 100vh;
+    /*width: 100%;*/
+    z-index: -1;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .main_wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    z-index: 9;
+    .sub_wrapper {
+      border: 40px solid rgba(232, 232, 232, 0.29);
+      margin: 0 auto;
+      display: inline-flex;
+      .logo_section {
+        background: #008cc9;
+        width: 270px;
+        height: 320px;
+        margin: 0 auto;
+        box-shadow: 0px 0 11px 1px rgba(0, 140, 201, 0.3);
+
+        img {
+          margin: auto;
+          width: 100%;
+          padding: 80px 65px;
+        }
+
+        p {
+          /*bottom: 10px;*/
+          text-align: center;
+          color: rgba(255, 255, 255, 0.5);
+          /*position: absolute;*/
+          margin: 0 auto;
+          /*width: 100%;*/
+          font-weight: 300;
+          font-size: 13px;
+        }
+      }
+
+      .login_section {
+        height: 320px;
+        box-shadow: 0px 0 11px 1px rgba(136, 136, 136, 0.51);
+
+        &.input-section {
+          background: #fff;
+          width: 400px;
+          text-align: center;
+
+          .title-section {
+            text-align: center;
+            h4 {
+              padding-top: 30px;
+              padding-bottom: 10px;
+              font-size: 20px;
+              font-family: "Poppins", sans-serif !important;
+              text-transform: uppercase;
+              font-weight: 500;
+              color: #848484;
+              &.modal-title {
+                padding: 0px;
+              }
+            }
+          }
+          form {
+            height: 175px;
+            .user-section {
+              text-align: center;
+              margin: 20px 0 15px 0;
+
+              .email {
+                margin-bottom: 10px;
+                input {
+                  height: 40px;
+                  width: 320px;
+                  color: #848484;
+                  background: #f2f2f2;
+                  border: 1px solid #f2f2f2;
+                  font-family: "Poppins", sans-serif !important;
+                  padding: 0px 5px 0px 44px;
+                  font-size: 14px;
+                  transition: background 0.5s ease-in-out;
+
+                  &.input-text {
+                    background: #f2f2f2 url(../../assets/images/login/email.png) scroll 12px 10px;
+                    background-repeat: no-repeat;
+                    &:focus {
+                      background: transparent;
+                      background: url(../../assets/images/login/email.png) scroll 12px 10px;
+                      background-repeat: no-repeat;
+                      border: 1px solid #f2f2f2;
+                    }
+                  }
+
+                  &.input-password {
+                    background: #f2f2f2 url(../../assets/images/login/password.png) scroll 14px 10px;
+                    background-repeat: no-repeat;
+                    &:focus {
+                      background: url(../../assets/images/login/password.png) scroll 14px 10px;
+                      background-repeat: no-repeat;
+                      border: 1px solid #f2f2f2;
+                    }
+                  }
+                }
+              }
+            }
+            .error-message {
+              font-size: 12px;
+              margin: 6px 0 0 0;
+              font-weight: 500;
+              color: rgba(255, 0, 0, 0.6);
+              &.success {
+                color: #008cc9;
+              }
+            }
+
+            .custom-btn {
+              width: 320px;
+              height: 40px;
+              border-radius: 0px;
+              background-color: #008cc9;
+              border: 1px solid #008cc9;
+              transition: all 0.5s ease-in-out;
+              &:hover {
+                background-color: rgba(0, 140, 201, 0.78) !important;
+                border: 1px solid rgba(0, 140, 201, 0.78);
+              }
+            }
+            .bottom-link {
+              display: inline-flex;
+
+              a,
+              .forget-password {
+                color: #008cc9;
+                padding-top: 7px;
+                display: block;
+                font-size: 14px;
+                font-weight: 500;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

@@ -1,0 +1,19 @@
+@import "../../../../../styles/app.scss";
+
+.locale {
+  right: 10px;
+  button {
+    background: #fff;
+    border: none;
+    padding: 0;
+    .lang-img {
+      height: 20px;
+      width: 25px;
+      border: 1px solid $theme-color;
+      border-radius: 2px;
+      &.active {
+        border: 2px solid $theme-color-hover;
+      }
+    }
+  }
+}

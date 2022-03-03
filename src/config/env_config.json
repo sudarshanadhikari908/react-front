@@ -1,0 +1,16 @@
+{
+  "baseApiUrl": "https://system.v3.pointnemo.info/api/v1/",
+  "mbtileUrl": "https://system.v3.pointnemo.info/mbtiles/file/",
+  "clientId": "9243607d-6b28-4f1b-b803-ff337d998d33",
+  "attribuation": "Point Nemo @<a target='_blank' href='https://ekbana.com'>EKbana</a>",
+  "defaultLat": 9.864471,
+  "defaultLng": 20.8727885,
+  "defaultZoom": 3,
+  "minZoom": 0,
+  "maxZoom": 18,
+  "pageTitle": "Pointnemo | Location Data Analysis",
+  "searchLen": 10,
+  "showCopyRight": true,
+  "defaultLanguage": "en",
+   "availableLanguage": ["en-US", "ne-NP", "ja-JP"]
+}

@@ -1,0 +1,109 @@
+{
+  "login": {
+    "email-user": "メール/ユーザー名",
+    "forget-pass": "パスワードをお忘れ",
+    "login": "ログイン",
+    "password": "パスワード",
+    "sub-title": "メールまたはユーザー名でログイン",
+    "title": "分析ログイン"
+  },
+
+  "analysis-panel": {
+    "modal": {
+      "apply": "実行",
+      "close": "閉じる"
+    },
+    "panel-detail": {
+      "away": "逸れ",
+      "district": "区"
+    },
+    "search-data": {
+      "name": "名前",
+      "type": "タイプ"
+    }
+  },
+  "analyze": {
+    "analyze-list": "リストを分析",
+    "no-list": "分析リストにはアイテムがありません。"
+  },
+  "auth": {
+    "forgot": {
+      "back-login": "ログインへ戻る",
+      "conf-password": "パスワードを再確認",
+      "email": "メール",
+      "get-token": "リセットトークンを取得",
+      "have-code": "コードをリセットしました",
+      "link-conf-msg": "パスワードリセットのリンクを送信します。",
+      "link-msg": "コードを入力しパスワードをリセットしてください。",
+      "password": "パスワード",
+      "reset-password": "パスワードをリセットする",
+      "success": "成功",
+      "success-msg": "パスワードは正常にリセットされました。",
+      "title": "パスワードを忘れ",
+      "token": "トークン",
+      "verify-email": "メールを確認"
+    },
+
+    "reset": {
+      "cancel-reset": "パスワードのリセットをキャンセル",
+      "close": "閉じる",
+      "conf-new-password": "新しいパスワードを確認",
+      "new-password": "新しいパスワード",
+      "old-password": "旧パスワード",
+      "reset": "パスワードをリセット",
+      "success": "成功",
+      "success-message": "パスワードは正常にリセットされました。"
+    }
+  },
+  "greeting": "こんにちは {{name}}！",
+  "latlng": {
+    "zoom": "ズーム"
+  },
+  "left-section": {
+    "add-analyze": "分析対象として追加する。",
+    "back": "戻る",
+    "clear": "クリア",
+    "dataset": "データセット",
+    "dataset-search": "データセットを検索",
+    "livedata": "本番データ",
+    "loc-analysis": "ロケーション分析",
+    "no-dataset-analysis": "分析データセットは利用可能ではありません。",
+    "no-timeline": "タイムラインデータは利用可能ではありません。",
+    "style-for": "スタイル",
+    "label-show": "マウス合せる時",
+    "label-hover": "表示",
+    "label-on": "表示",
+    "label-off": "非表示"
+  },
+  "legend": {
+    "basemap": "ベースマップ",
+    "legend": "凡例"
+  },
+  "livedata": {
+    "depth": "深度",
+    "location": "ロケーション",
+    "magnitude": "大小",
+    "time": "時間",
+    "title": "題名"
+  },
+  "price_banner": "{product} 価格 {price, number, ::currency/USD}",
+  "profile": {
+    "about": "アバウト",
+    "analysispanel": "分析パネル",
+    "dataset": "データセット",
+    "datasetanalysis": "データセット分析",
+    "logout": "ログアウト",
+    "repass": "パスワードをリセット",
+    "timeline": "タイムライン"
+  },
+  "search": {
+    "allow-selfsearch": "自己検索を許可します",
+    "category": "カテゴリー",
+    "clear": "クリア",
+    "relations": "関係",
+    "search": "検索",
+    "search-relation": "カテゴリをインターリンクするために右側のパネルからの関係を選択してください。",
+    "search-sel-cat": "左側のパネルからカテゴリを選択します。",
+    "download": "ダウンロード"
+  }
+}

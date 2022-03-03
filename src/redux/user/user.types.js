@@ -1,0 +1,5 @@
+export const UserActionTypes = {
+  SET_AUTH_USER: "SET_AUTH_USER",
+  SET_CURRENT_USER: "SET_CURRENT_USER",
+  SET_ABOUT_APP: "SET_ABOUT_APP",
+}

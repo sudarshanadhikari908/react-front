@@ -1,0 +1,12 @@
+.btn-group{
+  display: inline-flex !important;
+}
+
+.input-group {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+button:focus {
+  box-shadow: none !important;
+}

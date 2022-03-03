@@ -1,0 +1,33 @@
+@import "./../../../styles/app.scss";
+.input__checkbox {
+  padding-left: 1.4rem;
+  margin-bottom: 7px;
+  display: flex;
+  justify-content: space-between;
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .form-check-input {
+    margin-top: 0.2rem;
+    margin-left: -1.4rem;
+    :focus {
+      box-shadow: none !important;
+    }
+  }
+
+  .form-check-label {
+    font-weight: normal !important;
+    margin: 0px 0px 0px 8px !important;
+  }
+  .check-icon {
+    a {
+      display: inline-block;
+      margin-right: 4px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
